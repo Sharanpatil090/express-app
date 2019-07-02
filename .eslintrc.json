@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node" : true,
+        "mocha":true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "indent": ["error", 2],
+        "semi":["error", "always"],
+        "camelcase":"error",
+        "comma-dangle":"off",
+        "prefer-const": ["error", {
+            "destructuring": "any",
+            "ignoreReadBeforeAssign": false
+        }],
+        "no-console": ["error", { "allow": ["warn", "error"] }],
+        "quotes": ["error", "double", { "avoidEscape": true }],
+        "no-useless-concat": "error",
+        "quote-props": ["error", "always"]
+    }
+}

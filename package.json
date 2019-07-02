@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-express-sequelizejs-mysql",
+  "version": "1.0.0",
+  "description": "nodejs-express-sequelizejs-mysql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJs-Express-SequelizeJs-MySQL"
+  ],
+  "author": "JSA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "is-empty": "^1.2.0",
+    "mysql2": "^1.5.3",
+    "parse-int": "^1.0.3",
+    "sequelize": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  }
+}
